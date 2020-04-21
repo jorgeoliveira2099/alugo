@@ -1,0 +1,16 @@
+{
+    "dir": "ltr",
+    "lang": "pt-br",
+    "name": "Alugo",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://happy-murdock-e87dea.netlify.app/",
+    "short_name": "Alugo",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": []
+}
