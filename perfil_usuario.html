@@ -66,6 +66,25 @@ color: #aaa;
 float: left;
 color: #999;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
 </style>
 
 </head>
@@ -125,56 +144,33 @@ color: #999;
    
   </div>
 
-  <div class="container col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-5" style="border: 3px solid black; width: 50%; height: 800px;"> 
-    <div class="row d-flex justify-content-center">
-      <img src="img/icone-usuario.png" alt="" class="img-responsive">
-    </div>
 
-    <form>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Nome:</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Adriano Serra de Andrade">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Cidade/Estado</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Recife-PE">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Telefone/Celular</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="(81) 99796-1105">
-      </div>
-      <div class="form-group mt-4">
-        <label for="exampleInputEmail1">Endereço de E-mail</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="adriano_sanfly@hotmail.com">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Senha</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
-      </div>
-      <form>
-        <div class="form-group">
-          <label for="exampleInputPassword1">CPF/CNPJ</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlFile1">Imagem do perfil</label>
-          <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        </div>
-      </form>
-      <div class="form-check">
-      </div>
-      <button type="submit" class="btn btn-primary btn-block bg-dark">Alterar</button>
-    </form>
-      
+ 
+
+  <div class="card" >
+    <img src="img/team2.jpg" alt="John doe" style="width:100%">
+   
+   
+    <div style="margin: 24px 0;">
+      <p class="title">Nome:</p>
+      <p class="title"></p>
+      <input type="text" placeholder="John doe" value="(81) 9 8765-4321"/>
+      <p class="title">Telefone:</p>
+      <p class="title"></p>
+      <input type="text" value="(81) 9 8765-4321"/>
     
-  
+      <p class="title">E-mail:</p>
+      <p class="title"></p>
+      <input type="text" value="alguem@gmail.com" />
+    
+
+      <p class="title">Cidade:</p>
+      <p class="title"></p>
+      <input type="text" value="Boa Vista recife"/>
+    </div>
+    <p><button class="btn btn-dark">Alterar</button></p>
   </div>
-
-
-
-  </div>
-
-
+<br>
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">

@@ -16,7 +16,39 @@
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+    
+    .price {
+      color: grey;
+      font-size: 22px;
+    }
+    
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    
+    .card button:hover {
+      opacity: 0.7;
+    }
+    </style>
 </head>
+
 
 <body>
 
@@ -73,74 +105,36 @@
     
   </div>
 
-  <div class="container col-xs-12 col-sm-6 col-md-6 col-lg-5 mb-5" style="border: 3px solid black;">
+ 
+<div class="card">
+  <img src="img/terno-meus-produtos.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>terno</h1>
+  <p class="price">R$59,99</p>
+  <p>Some text about the terno. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+ <p> <a href=editar_produto.html style="text-decoration:none; color:white ;"><button>Editar</button></a></p>
+  <p><button>Excluir Anúncio</button></p>
+</div>
 
-    <div class="ml-4 mt-5 mr-4 d-flex p-2 mb-5" style="border: 2px solid black">    
-      <div class="d-flex flex-row justify-content-sm-center justify-content-md-center justify-content-lg-center ">
-        <div class="p-2">
-          <img src="img/serra-eletrica-meus-produtos.jpg" alt="produto" class="img-responsive ml-4 mr-4 mb-4 mt-4" style="width: 200px; height: 200px;">
-        </div>
-        <div class="ml-auto p-2" style="border-left: 2px solid black;">
-            <h3 style="margin-left: 100px;">Serra Elétrica</h3>
-            <h4 class="mt-4 ml-2">Preço: R$ 55,00</h4>
-            <h4 class="mt-4 ml-2">Postado: 19/04/2020</h4>
-            <h4 class="mt-4 ml-2">Visualizações: 34</h4>
-            <button type="submit" class="btn btn-primary bg-dark mr-5 ml-5 mt-3" style="padding-left: 20px; padding-right: 20px;" ><a href=editar_produto.html style="text-decoration:none; color:white ;">Editar</a></button>
-            <button type="submit" class="btn btn-primary bg-dark ml-5 mt-3" style="padding-left: 20px; padding-right: 20px;">Excluir</button>
-        </div>
-      </div>    
-    </div>
 
-    <div class="ml-4 mt-4 mr-4 d-flex p-2 mb-5" style="border: 2px solid black">    
-      <div class="d-flex flex-row justify-content-sm-center justify-content-md-center justify-content-lg-center ">
-        <div class="p-2">
-          <img src="img/terno-meus-produtos.jpg" alt="produto" class="img-responsive ml-4 mr-4 mb-4 mt-4" style="width: 200px; height: 200px;">
-        </div>
-        <div class="ml-auto p-2" style="border-left: 2px solid black;">
-            <h3 style="margin-left: 100px;">Terno</h3>
-            <h4 class="mt-4 ml-2">Preço: R$ 110,00</h4>
-            <h4 class="mt-4 ml-2">Postado: 03/02/2020</h4>
-            <h4 class="mt-4 ml-2">Visualizações: 134</h4>
-            <button type="submit" class="btn btn-primary bg-dark mr-5 ml-5 mt-3" style="padding-left: 20px; padding-right: 20px;"><a href=editar_produto.html style="text-decoration:none; color:white ;">Editar</a></button>
-            <button type="submit" class="btn btn-primary bg-dark ml-5 mt-3" style="padding-left: 20px; padding-right: 20px;">Excluir</button>
-        </div>
-      </div>    
-    </div>
+<div class="card">
+  <img src="img/serra-eletrica-meus-produtos.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Serra elétrica</h1>
+  <p class="price">R$39,99</p>
+  <p>Some text about the terno. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p> <a href=editar_produto.html style="text-decoration:none; color:white ;"><button>Editar</button></a></p>
+  <p><button>Excluir Anúncio</button></p>
+</div>
 
-    <div class="ml-4 mt-4 mr-4 d-flex p-2 mb-5" style="border: 2px solid black">    
-      <div class="d-flex flex-row justify-content-sm-center justify-content-md-center justify-content-lg-center ">
-        <div class="p-2">
-          <img src="img/kit-chaves-meus-produtos.jpeg" alt="produto" class="img-responsive ml-4 mr-4 mb-4 mt-4" style="width: 200px; height: 200px;">
-        </div>
-        <div class="ml-auto p-2" style="border-left: 2px solid black;">
-            <h3 style="margin-left: 100px;">Kit Chaves</h3>
-            <h4 class="mt-4 ml-2">Preço: R$ 21,00</h4>
-            <h4 class="mt-4 ml-2">Postado: 17/02/2020</h4>
-            <h4 class="mt-4 ml-2">Visualizações: 67</h4>
-            <button type="submit" class="btn btn-primary bg-dark mr-5 ml-5 mt-3" style="padding-left: 20px; padding-right: 20px;"><a href=editar_produto.html style="text-decoration:none; color:white ;">Editar</a></button>
-            <button type="submit" class="btn btn-primary bg-dark ml-5 mt-3" style="padding-left: 20px; padding-right: 20px;">Excluir</button>
-        </div>
-      </div>    
-    </div>
+<div class="card">
+  <img src="img/kit-chaves-meus-produtos.jpeg" alt="Denim Jeans" style="width:100%">
+  <h1>Kit Chaves</h1>
+  <p class="price">R$29,99</p>
+  <p>Some text about the terno. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p> <a href=editar_produto.html style="text-decoration:none; color:white ;"><button>Editar</button></a></p>
+  <p><button>Excluir Anúncio</button></p>
+</div>
 
-    <nav aria-label="...">
-      <ul class="pagination justify-content-center">
-        <li class="page-item disabled">
-          <a class="page-link" href="#" tabindex="-1">Previous</a>
-        </li>
-        <li class="page-item active">
-          <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item">
-          <a class="page-link" href="#">Next</a>
-        </li>
-      </ul>
-    </nav>
 
-  </div>
-  
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">

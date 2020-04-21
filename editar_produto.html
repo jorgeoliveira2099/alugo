@@ -67,6 +67,35 @@ color: #aaa;
 float: left;
 color: #999;
 }
+
+.card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+    
+    .price {
+      color: grey;
+      font-size: 22px;
+    }
+    
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    
+    .card button:hover {
+      opacity: 0.7;
+    }
 </style>
 </head>
 
@@ -129,45 +158,33 @@ color: #999;
     </div>
 
 
+ 
+    <div class="card">
+      <img src="img/terno-meus-produtos.jpg" alt="Denim Jeans" style="width:100%">
 
-<div class="container col-xs-12 col-sm-6 col-md-6 col-lg-3 mb-5" style="border: 3px solid black; width: 50%; height: 800px;"> 
+
+      <div style="margin: 24px 0;">
+        <p class="title">Nome:</p>
+        <p class="title"></p>
+        <input type="text" placeholder="John doe" value="Terno"/>
+        <p class="title">Preço:</p>
+        <p class="title"></p>
+        <input type="text" value="R$ 59,00"/>
+      
+        <p class="title">Descrição:</p>
+        <p class="title"></p>
+        <input type="text" value="Com pouco tempo de uso, perfeito para casamentos" />
+      
   
+        <p class="title">Cidade:</p>
+        <p class="title"></p>
+        <input type="text" value="Boa Vista recife"/>
+        <p></p>
+        <p><button class="btn btn-dark">Editar</button></p>
+      </div>
+      </div>
     
-  <div class="row d-flex justify-content-center">
-    <img src="https://a-static.mlcdn.com.br/618x463/moto-serra-eletrica-sabre-16-polegadas-40cm-2400w-matsuyama/vendaspontual/00000283e/3370037835dc67a91548245e86433b8f.jpg" width="140px" heigth="100px">
-    <img src="https://http2.mlstatic.com/moto-serra-eletrica-D_NQ_NP_950645-MLB31148963728_062019-F.jpg" width="140px" heigth="100px">
-    <img src="https://http2.mlstatic.com/moto-serra-eletrica-2400w-16-matsuyama-eletrosserra-D_NQ_NP_850367-MLB31205752308_062019-F.webp" width="140px" heigth="100px"><br>
 
-
-<input id="filebutton" name="filebutton" class="input-file" type="file">
-
-  </div>
-
-  <form>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Título:</label>
-      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Adriano Serra de Andrade">
-    </div>
-    
-  
-    <div class="form-group mt-4">
-      <label for="exampleInputEmail1">Preço</label>
-      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="R$ 50,00">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Descrição:</label>
-      <input type="texr" class="form-control" id="exampleInputPassword1" value="Serra elétrica com manuel de instrução">
-    </div>      
-    </form>
-  
-    <button type="submit" class="btn btn-primary btn-block bg-dark">Alterar</button>
-  </form>
-    
-  
-
-</div>
-</div>
-    
   
 
 
