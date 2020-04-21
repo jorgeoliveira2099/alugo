@@ -15,7 +15,76 @@
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
+
+  <style>
+    .body1 {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.container1 {
+border: 2px solid #dedede;
+background-color: #f1f1f1;
+border-radius: 5px;
+padding: 10px;
+margin: 10px 0;
+}
+
+.darker {
+border-color: #ccc;
+background-color: #ddd;
+}
+
+.container1::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.container1 img {
+float: left;
+max-width: 60px;
+width: 100%;
+margin-right: 20px;
+border-radius: 50%;
+}
+
+.container1 img.right {
+float: right;
+margin-left: 20px;
+margin-right:0;
+}
+
+.time-right {
+float: right;
+color: #aaa;
+}
+
+.time-left {
+float: left;
+color: #999;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
 </head>
 
 <body>
@@ -23,7 +92,7 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="home.html">Alugo</a>
+      <a class="navbar-brand" href="index.html">Alugo</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -31,25 +100,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="inserir_produto.html">Inserir Produto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="perfil_usuario.html">Perfil</a>
-          </li>
             <li class="nav-item">
-            <a class="nav-link" href="meus_produtos.html">Meus Produtos</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="meus_chats_usuario.html">Meus Chats</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ajuda_usuario.html">Ajuda</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="termos_usuario.html">Termos</a>
-          </li>
-              <li class="nav-item">
             <a class="nav-link" href="Index.html">Sair</a>
           </li>
         </ul>
@@ -57,9 +108,58 @@
     </div>
   </nav>
 
- 
-  Testo Padrão
+  
 
+     
+  <div class="row d-flex justify-content-center" >
+    <table style="border-collapse: separate;">
+      <th><a href="index.html"><i class="fa fa-chevron-left"></i></a></th>
+      <th> <h1 class="my-4" >Cadastre-se</h1>          
+      </th>
+    </table>
+   
+  </div>
+
+  <div class="card" >
+   
+   
+    <div style="margin: 24px 0;">
+      <p class="title">Nome:</p>
+      <p class="title"></p>
+      <input type="text" placeholder="Nome Completo" required />
+
+      <p class="title">E-mail:</p>
+      <p class="title"></p>
+      <input type="email" required placeholder="exemplo@exemplo.com" />
+
+      <p class="title">Senha:</p>
+      <p class="title"></p>
+      <input type="password" placeholder="Digite sua Senha" required />
+
+      <p class="title">Telefone:</p>
+      <p class="title"></p>
+      <input type="text" placeholder="(00) 0 0000-0000" required />
+    
+ 
+      <p class="title">Cidade:</p>
+      <p class="title"></p>
+      <input type="text" placeholder="" required />
+    
+ 
+      <p class="title">CPF:</p>
+      <p class="title"></p>
+      <input type="text"  maxlength="11" placeholder="000.000.000-00" required />
+    
+ 
+      
+    
+
+    </div>
+    <p><button class="btn btn-dark">Cadastrar</button></p>
+  </div>
+<br>
+ 
+ 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
