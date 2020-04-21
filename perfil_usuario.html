@@ -185,7 +185,13 @@ button:hover, a:hover {
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="module">
 
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+    </script> 
 </body>
 
 </html>
