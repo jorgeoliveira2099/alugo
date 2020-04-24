@@ -14,11 +14,13 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link rel="manifest" href="manifest.json">
-<!-- Suporte para IOS-->
-<link rel="apple-touch-icon" href="icons/icon-96x96.png">
-<meta name="apple-mobile-web-app-status-bar" content="#083354">
-<link href="css/corpo.css" rel="stylesheet">
+  <link rel="manifest" href="manifest.json">
+  <!-- Suporte para IOS-->
+  <link rel="apple-touch-icon" href="icons/icon-96x96.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#083354">
+
+  <link href="css/corpo.css" rel="stylesheet">
+</head>
 
 <body>
 
@@ -33,7 +35,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-                   
+        
               <li class="nav-item">
             <a class="nav-link" href="Index.html">Sair</a>
           </li>
@@ -41,44 +43,77 @@
       </div>
     </div>
   </nav>
-
-
-
-  <div class="wrapper">
-  
- <nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="home.html">Pagina Inicial</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Atual</li>
-  </ol>
-</nav>
-
-
-
-<div class="container">  
-  <div class="row d-flex justify-content-center" >
-  
-      <h1>Esqueci a senha</h1>    
-  </div>
+ 
+ 
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ol>
+  </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Perfil do Usuário</li>
+      </ol>
+    </nav>
     
-<!-- aqui abaixo -->
+
+
+
+    <div class="wrapper">
+     
+<div class="container">
+
+      <div class="row d-flex justify-content-center" >
+        
+        
+          <h1 class="my-4" >Esqueci a Senha</h1>          
+        
+       
+      </div>
+    
+    
+      <form>
+      
+        <p>Digite seu email abaixo para que possamos lhe enviar uma nova senha.</p>
+        <div class="form-group row">
+          
+          <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>
+        
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword" placeholder="exemplo@exemplo.com">
+          </div>
+        </div>
+    
+            <br>
+            <button class="btn btn-dark">Enviar</button>
+          
+        
+       
+      </form>
+
+    </div>
+    </div>
+      <div class="push"></div>
+    </div>
+    
 
 
 
 
-    <!-- aquibaixo não apagar--> 
-</div>
-    <div class="push"></div>
-  </div>
- <!-- Footer -->
- <footer class="py-5 bg-dark footer">
-  <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Alugo 2020</p>
-  </div>
-  <!-- /.container -->
-</footer> 
+
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Alugo 2020</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
