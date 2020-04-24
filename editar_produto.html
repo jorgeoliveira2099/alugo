@@ -8,99 +8,17 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Editar Produto - Alugo</title>
+  <title>Meus Produtos - Alugo</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="manifest" href="manifest.json">
-  <!-- Suporte para IOS-->
-  <link rel="apple-touch-icon" href="icons/icon-96x96.png">
-  <meta name="apple-mobile-web-app-status-bar" content="#083354">
-
-  <style>
-    .body1 {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 0 20px;
-}
-
-.container1 {
-border: 2px solid #dedede;
-background-color: #f1f1f1;
-border-radius: 5px;
-padding: 10px;
-margin: 10px 0;
-}
-
-.darker {
-border-color: #ccc;
-background-color: #ddd;
-}
-
-.container1::after {
-content: "";
-clear: both;
-display: table;
-}
-
-.container1 img {
-float: left;
-max-width: 60px;
-width: 100%;
-margin-right: 20px;
-border-radius: 50%;
-}
-
-.container1 img.right {
-float: right;
-margin-left: 20px;
-margin-right:0;
-}
-
-.time-right {
-float: right;
-color: #aaa;
-}
-
-.time-left {
-float: left;
-color: #999;
-}
-
-.card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      max-width: 300px;
-      margin: auto;
-      text-align: center;
-      font-family: arial;
-    }
-    
-    .price {
-      color: grey;
-      font-size: 22px;
-    }
-    
-    .card button {
-      border: none;
-      outline: 0;
-      padding: 12px;
-      color: white;
-      background-color: #000;
-      text-align: center;
-      cursor: pointer;
-      width: 100%;
-      font-size: 18px;
-    }
-    
-    .card button:hover {
-      opacity: 0.7;
-    }
-</style>
-</head>
+<link rel="manifest" href="manifest.json">
+<!-- Suporte para IOS-->
+<link rel="apple-touch-icon" href="icons/icon-96x96.png">
+<meta name="apple-mobile-web-app-status-bar" content="#083354">
+<link href="css/corpo.css" rel="stylesheet">
 
 <body>
 
@@ -139,68 +57,45 @@ color: #999;
         </ul>
       </div>
     </div>
-  </nav> 
+  </nav>
+
+
+
+  <div class="wrapper">
   
+ <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="home.html">Pagina Inicial</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Atual</li>
+  </ol>
+</nav>
 
 
-    <nav>
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="home.html">Página Inicial</a></li>
-        <li class="breadcrumb-item"><a href="meus_produtos.html">Meus Produtos</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Editar Produto</li>
-      </ol>
-    </nav>
+
+<div class="container">  
+  <div class="row d-flex justify-content-center" >
+  
+      <h1>Meus Produtos</h1>    
+  </div>
     
-    
-    <div class="row d-flex justify-content-center">
-    <table>
-      <th><a href="home.html"><i class="fa fa-chevron-left"></i></a></th>
-      <th> <h2>Editar Produto</h2></th>        
-    </table>
-   
-    </div>
+<!-- aqui abaixo -->
 
 
- 
-    <div class="card">
-      <img src="img/terno-meus-produtos.jpg" alt="Denim Jeans" style="width:100%">
 
 
-      <div style="margin: 24px 0;">
-        <p class="title">Nome:</p>
-        <p class="title"></p>
-        <input type="text" placeholder="John doe" value="Terno"/>
-        <p class="title">Preço:</p>
-        <p class="title"></p>
-        <input type="text" value="R$ 59,00"/>
-      
-        <p class="title">Descrição:</p>
-        <p class="title"></p>
-        <input type="text" value="Com pouco tempo de uso, perfeito para casamentos" />
-      
-  
-        <p class="title">Cidade:</p>
-        <p class="title"></p>
-        <input type="text" value="Boa Vista recife"/>
-        <p></p>
-        <p><button class="btn btn-dark">Editar</button></p>
-      </div>
-      </div>
-    
-
-  
-
-
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Alugo 2020</p>
-    </div>
-   </footer>
-
-  
+    <!-- aquibaixo não apagar--> 
+</div>
+    <div class="push"></div>
+  </div>
+ <!-- Footer -->
+ <footer class="py-5 bg-dark footer">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Alugo 2020</p>
+  </div>
+  <!-- /.container -->
+</footer> 
+  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
-
 </html>

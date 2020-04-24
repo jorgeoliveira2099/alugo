@@ -13,45 +13,12 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="manifest" href="manifest.json">
-  <!-- Suporte para IOS-->
-  <link rel="apple-touch-icon" href="icons/icon-96x96.png">
-  <meta name="apple-mobile-web-app-status-bar" content="#083354">
-  <style>
-    .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      max-width: 300px;
-      margin: auto;
-      text-align: center;
-      font-family: arial;
-    }
-    
-    .price {
-      color: grey;
-      font-size: 22px;
-    }
-    
-    .card button {
-      border: none;
-      outline: 0;
-      padding: 12px;
-      color: white;
-      background-color: #000;
-      text-align: center;
-      cursor: pointer;
-      width: 100%;
-      font-size: 18px;
-    }
-    
-    .card button:hover {
-      opacity: 0.7;
-    }
-    </style>
-</head>
-
+<link rel="manifest" href="manifest.json">
+<!-- Suporte para IOS-->
+<link rel="apple-touch-icon" href="icons/icon-96x96.png">
+<meta name="apple-mobile-web-app-status-bar" content="#083354">
+<link href="css/corpo.css" rel="stylesheet">
 
 <body>
 
@@ -92,65 +59,43 @@
     </div>
   </nav>
 
-  <nav>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="home.html">Página Inicial</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Meus Produtos</li>
-    </ol>
-  </nav>
- 
+
+
+  <div class="wrapper">
+  
+ <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="home.html">Pagina Inicial</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Atual</li>
+  </ol>
+</nav>
+
+
+
+<div class="container">  
   <div class="row d-flex justify-content-center" >
-    <table style="border-collapse: separate;">
-      <th><a href="home.html"><i class="fa fa-chevron-left"></i></a></th>
-      <th><h2 style="text-align: center;">Meus Produtos</h2>          
-      </th>
-    </table>
-    
+  
+      <h1>Meus Produtos</h1>    
   </div>
+    
+<!-- aqui abaixo -->
 
- 
-<div class="card">
-  <img src="img/terno-meus-produtos.jpg" alt="Denim Jeans" style="width:100%">
-  <h1>terno</h1>
-  <p class="price">R$59,99</p>
-  <p>Some text about the terno. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
- <p> <a href=editar_produto.html style="text-decoration:none; color:white ;"><button>Editar</button></a></p>
-  <p><button>Excluir Anúncio</button></p>
+
+
+
+    <!-- aquibaixo não apagar--> 
 </div>
-
-
-<div class="card">
-  <img src="img/serra-eletrica-meus-produtos.jpg" alt="Denim Jeans" style="width:100%">
-  <h1>Serra elétrica</h1>
-  <p class="price">R$39,99</p>
-  <p>Some text about the terno. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-  <p> <a href=editar_produto.html style="text-decoration:none; color:white ;"><button>Editar</button></a></p>
-  <p><button>Excluir Anúncio</button></p>
-</div>
-
-<div class="card">
-  <img src="img/kit-chaves-meus-produtos.jpeg" alt="Denim Jeans" style="width:100%">
-  <h1>Kit Chaves</h1>
-  <p class="price">R$29,99</p>
-  <p>Some text about the terno. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-  <p> <a href=editar_produto.html style="text-decoration:none; color:white ;"><button>Editar</button></a></p>
-  <p><button>Excluir Anúncio</button></p>
-</div>
-
-
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Alugo 2020</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
+    <div class="push"></div>
+  </div>
+ <!-- Footer -->
+ <footer class="py-5 bg-dark footer">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Alugo 2020</p>
+  </div>
+  <!-- /.container -->
+</footer> 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
-
 </html>
